@@ -1,8 +1,10 @@
 .container{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 2fr;
-
+    /* grid-template-columns: 1fr 1fr 2fr; the 3rd column will be twice as wide as the rest of the columns */
+    /* grid-template-rows: 1fr 2fr; the second row will be twice as long as the first */
+    /* grid-template-columns: repeat(3, 1fr); repeats 1fr 3 times */
+    grid-template-columns: auto 1fr 2fr;
 }
 
 .zone {
