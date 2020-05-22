@@ -16,8 +16,8 @@
     /*grid-column: 1/-1; This will span the whole column width*/
     grid-column: span 2; /*this means this green bg element will span across 2 grids*/
     grid-row: 1/3; /*the length of the card will start at 1 and end at 3*/
-    /* justify-self: start; for individual items we use justify-self. As opposed to justify-items in the container class which is for all items. Movement is side to side*/
-    /*align-self: center; This is like align-items but for an individual item. This has movement that goes up and down*/
+    /* justify-self: start; for individual items (children) we use justify-self. As opposed to justify-items in the container class which is for all items. Movement is side to side*/
+    /*align-self: center; This is like align-items but for an individual item (children). This has movement that goes up and down*/
 
 }
 
