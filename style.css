@@ -7,7 +7,7 @@
     /* grid-template-columns: auto 1fr 2fr; */
     /*auto makes it take the size of its content*/
     /*below the setting i am putting is the most common setting you will always use*/
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /*3 rows all 1fr*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /*3 rows all 1fr. When it hits the minimum of 200px in size the browser will have only one column.*/
     grid-template-rows: 1fr;
 }
 /*doing the grid stuff on the top to avoid confusion*/
@@ -16,6 +16,9 @@
     /*grid-column: 1/-1; This will span the whole column width*/
     grid-column: span 2; /*this means this green bg element will span across 2 grids*/
     grid-row: 1/3; /*the length of the card will start at 1 and end at 3*/
+    /* justify-self: start; for individual items we use justify-self. As opposed to justify-items in the container class which is for all items. Movement is side to side*/
+    /*align-self: center; This is like align-items but for an individual item. This has movement that goes up and down*/
+
 }
 
 .zone {
